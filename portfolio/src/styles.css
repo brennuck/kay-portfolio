@@ -1,0 +1,38 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: #323232;
+}
+
+header {
+    height: 96px;
+}
+
+.nameLogo {
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bigheader {
+    font-size: 95px;
+    width: 66%;
+    text-align: center;
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+.emailButton {
+    border: 2px solid #323232;
+    padding: 10px 60px;
+    text-decoration: none;
+    color: #323232;
+    border-radius: 40px;
+}
